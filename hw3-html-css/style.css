@@ -1,0 +1,181 @@
+body{
+  width: 900px;
+  overflow-x: hidden;
+  margin-left: 0;
+}
+
+header{
+  position: relative;
+  left: 350px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  letter-spacing:0.5px;
+  font-size: 34px;
+  font-weight: bold;
+  color: #291485;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 5px;
+}
+
+.top-nav{
+  width: 900px;
+  background-color:#FAECD8;
+  overflow: hidden;
+}
+
+.top-nav ul {
+  list-style-type:none;
+  margin: 5px 8px 5px 50px;
+  padding: 0;
+}
+
+li {
+  float: left;
+}
+
+li a{
+  text-decoration:none;
+  display: block;
+  padding:5px 8px 10px 8px;
+  font-family: sans-serif;
+  font-size: 18px;
+  color:#0000cd;
+}
+
+li a:active{
+  color: red;
+}
+
+li a:visited{
+  color:#670a74d7 ;
+}
+
+
+.top-container{
+  margin: 30px 70px 30px 65px;
+  position: relative;
+}
+
+.top-text{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 40px;
+  color: #FEF2CF;
+  position: absolute;
+  top:150px;
+  left:175px;
+}
+
+.parallax{
+  background-image: url(./img/restaurant.png);
+  width: 770px;
+  height: 450px;  
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: 864px 610px;
+}
+
+button{
+  position: absolute;
+  right:100px;
+  bottom:185px;
+  border: black double;
+  border-width: 3px;
+  background-color:#fffafa;
+  font-family: sans-serif;
+  font-size: 14px;
+  padding: 8px 10px 8px 8px;
+  cursor: pointer;
+}
+button:disabled{
+  color: rgb(12, 11, 11);
+}
+
+.middle-container{
+  font-family: "Comic Sans MS","Comic Sans",cursive;
+  font-size: 20px;
+  font-weight: bold;
+  color:#670a74d7 ;
+  position: relative;
+
+  margin: 10px 300px 30px 300px;
+  text-decoration-line: underline;
+  text-decoration-style: double;
+}
+
+.gallery-grid{
+  display: grid;
+  grid-template-columns: 90px 360px 360px 90px;
+  grid-template-rows: 320px 320px 320px 320px;
+}
+
+img{
+  height: 250px;
+  width: 340px;
+  border: solid 10px;
+}
+.title-text{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 14px;
+  font-weight: bold;
+  color: #284fc3;
+}
+
+p{
+  margin-top: 0px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 15px;
+  color: rgb(0, 0, 0);
+  font-weight:540;
+}
+
+.line-italian{
+  grid-column: 3/4;
+  grid-row: 1/2;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  padding: 80px 0px 100px 70px;
+}
+
+.line-indian{
+  grid-column: 2/3 ;
+  grid-row: 2 / 3;
+  
+  padding: 90px 80px 100px 0px;
+}
+
+.line-japanese{
+  grid-column: 3/4 ;
+  grid-row: 3 / 4;
+  
+  padding: 80px 0px 100px 70px;
+}
+
+
+.line-dessert{
+  grid-column: 2/3 ;
+  grid-row: 4 / 5;
+  padding: 80px 80px 100px 20px;
+}
+
+
+#italian-img{
+  border-color: #ffe4e1 ;
+  grid-column: 2/3;
+  grid-row: 1/2;
+}
+
+#indian-img{
+  border-color: 	#b0e0e6 ;
+  grid-column: 3/4;
+  grid-row: 2/3;
+}
+#japanese-img{
+  border-color: #ffe4e1;
+  grid-column: 2/3;
+  grid-row: 3/4;
+}
+
+#dessert-img{
+  border-color: #b0e0e6;
+  grid-column: 3/4;
+  grid-row: 4/5;
+}
