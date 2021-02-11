@@ -61,23 +61,23 @@ li a:visited{
   font-size: 40px;
   color: #FEF2CF;
   position: absolute;
-  top:185px;
+  top:150px;
   left:175px;
 }
 
 .parallax{
   background-image: url(./img/restaurant.png);
   width: 770px;
-  height: 500px;  
+  height: 450px;  
   background-attachment: fixed;
   background-repeat: no-repeat;
-  background-size: 864px 675px;
+  background-size: 864px 610px;
 }
 
 button{
   position: absolute;
   right:100px;
-  bottom:200px;
+  bottom:185px;
   border: black double;
   border-width: 3px;
   background-color:#fffafa;
